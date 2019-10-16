@@ -1,0 +1,36 @@
+body {
+    background-color:  rgb(14, 14, 14);
+    color: rgb(61, 216, 0);
+}
+.appContainer {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title {
+    border-bottom: 2px solid rgb(255, 166, 0);
+}
+
+.textArea{
+    width: 660px;
+    height: 680px;
+    background-color: #222;
+    border: 0px ;
+    resize: none;
+    overflow: auto;
+    font-size: 18px;
+    color:rgb(61, 216, 0);
+    border-radius: 4px;
+}
+
+.button{
+    width: 250px;
+    height: 80px;
+    font-size: 1.4em;
+    background-color: rgb(119, 119, 119);
+    color: black;
+    border: 2px solid rgb(61, 216, 0);;
+    outline: none;
+}
