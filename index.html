@@ -1,19 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    <button id="queryButton"> 
-        Genera lista
-    </button> 
-    <h1>Enter email addresses list</h1>
-    <textarea name="email list" id="emailValue" cols="30" rows="10"></textarea>
-    <h1>Output</h1>
-    <div id="output"></div>
-    <script src="index.js"></script>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Document</title>
+		<link rel="stylesheet" type="text/css" href="index.css" />
+	</head>
+	<body>
+        <h1>Google Cloud Directory Sync</h1>
+        <h3>Exclusion Rule Generator</h3>
+		<div class="appContainer">
+			<div class="input">
+				<h1 class="input_title">Enter email addresses list</h1>
+				<textarea id="emailValue" class="textArea"></textarea>
+            </div>
+            <button class="button" id="queryButton">
+                    Create Exclusion Rules
+            </button>
+			<div class="output">
+				<h1 class="output_title">Output</h1>
+				<textarea id="outputValue" class="textArea"></textarea>
+			</div>
+		</div>
+		<script src="index.js"></script>
+	</body>
 </html>

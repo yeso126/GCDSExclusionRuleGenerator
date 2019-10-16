@@ -1,0 +1,31 @@
+body {
+    background-color:  rgb(14, 14, 14);
+    color: white;
+}
+.appContainer {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.textArea{
+    width: 360px;
+    height: 680px;
+    background-color: #222;
+    border: 0px ;
+    resize: none;
+    overflow: auto;
+    font-size: 18px;
+    color:white;
+}
+
+.button{
+    width: 250px;
+    height: 100px;
+    font-size: 1.4em;
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+    outline: none;
+}
